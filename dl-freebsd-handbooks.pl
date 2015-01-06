@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
-my $u = "ftp://ftp.freebsd.org/pub/FreeBSD/doc/en_US.ISO8859-1/books";
+my $l = 'en_US.ISO8859-1';
+my $u = "ftp://ftp.freebsd.org/pub/FreeBSD/doc/$l/books";
 my %d = (
   "faq" => "FAQ",
   "handbook" => "Handbook",
